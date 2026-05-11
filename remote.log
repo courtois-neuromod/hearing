@@ -1,1 +1,1 @@
-5d2ec01c-9bcd-48f0-bb83-259db67f4bc5 autoenable=true bucket=cneuromod.hearing chunk=1GiB datacenter=US encryption=none host=s3.unf-montreal.ca name=unfs3.cneuromod.hearing port=443 protocol=https requeststyle=path storageclass=STANDARD type=S3 timestamp=1778510195s
+5d2ec01c-9bcd-48f0-bb83-259db67f4bc5 autoenable=true bucket=cneuromod.hearing chunk=1GiB datacenter=US encryption=none host=s3.unf-montreal.ca name=unfs3.cneuromod.hearing port=443 protocol=https requeststyle=path storageclass=STANDARD type=S3 timestamp=1778517918s
