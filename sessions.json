@@ -1,4 +1,4 @@
-﻿{
+{
   "session_id": {
     "LongName": "Session identification number",
     "Description": "Identification number of the sessions using the BIDS format (ses-XX, starting with ses-01)"

@@ -1,21 +1,20 @@
 {
-    "Acknowledgements": "https://docs.cneuromod.ca/en/latest/AUTHORS.html",
-    "Authors": [
-        "Eddy Fortier",
-        "Pierre Bellec",
-        "Julie Boyle",
-        "Adrian Fuente"
-    ],
-    "BIDSVersion": "1.0.1",
-    "Funding": [
-        "Courtois Foundation"
-    ],
-    "HowToAcknowledge": "https://docs.cneuromod.ca/en/latest/ACKNOWLEDGMENT.html",
-    "Preprint": "Fortier, E., Bellec, P., Boyle, J. A., & Fuente, A. (2023). MRI noise and auditory health: Can one hundred scans be linked to hearing loss?. PsyArXiv. https://doi.org/10.31234/osf.io/7xkng",
-    "License": "https://docs.cneuromod.ca/en/latest/ACCESS.html#data-transfer-agreement-(dta)",
-    "Name": "Audiological tests sub-dataset of the Courtois Neuromod project",
-    "ReferencesAndLinks": [
-        "https://docs.cneuromod.ca/"
-    ]
+  "Acknowledgements": "https://docs.cneuromod.ca/en/latest/AUTHORS.html",
+  "Authors": [
+    "Eddy Fortier",
+    "Pierre Bellec",
+    "Julie Boyle",
+    "Adrian Fuente"
+  ],
+  "BIDSVersion": "1.0.1",
+  "Funding": [
+    "Courtois Foundation"
+  ],
+  "HowToAcknowledge": "https://docs.cneuromod.ca/en/latest/ACKNOWLEDGMENT.html",
+  "Preprint": "Fortier, E., Bellec, P., Boyle, J. A., & Fuente, A. (2023). MRI noise and auditory health: Can one hundred scans be linked to hearing loss?. PsyArXiv. https://doi.org/10.31234/osf.io/7xkng",
+  "License": "https://docs.cneuromod.ca/en/latest/ACCESS.html#data-transfer-agreement-(dta)",
+  "Name": "Audiological tests sub-dataset of the Courtois Neuromod project",
+  "ReferencesAndLinks": [
+    "https://docs.cneuromod.ca/"
+  ]
 }
-
