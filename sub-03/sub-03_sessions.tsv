@@ -1,1 +1,12 @@
-../.git/annex/objects/pW/zx/SHA256E-s974--a58c1afe54d07b046c4552fefb07e9f2e7cd3b10ab0054c42a11ba5568917cdd.tsv/SHA256E-s974--a58c1afe54d07b046c4552fefb07e9f2e7cd3b10ab0054c42a11ba5568917cdd.tsv
+session_id	session_name	condition	delay	scan_type	Tymp	Reflex	PTA	MTX	TEOAE	DPOAE	DPGrowth_2kHz	DPGrowth_4kHz	DPGrowth_6kHz
+ses-01	Baseline 1	Baseline	0	No Scan	X		X		X	X		X	
+ses-02	Baseline 2	Baseline	800	No Scan	X	X	X	X	X	X		X	
+ses-03	Month 1	Condition 2 (2-7 days post-scan)	834	Functional	X		X	X	X	X		X	
+ses-04	Month 2	Condition 3A (OAEs right before the scan)	856	Anatomical	X	X			X	X	X	X	X
+ses-05	Month 2	Condition 3B (OAEs right after the scan)	856	Anatomical					X	X	X	X	X
+ses-06	Month 3	Condition 2 (2-7 days post-scan)	874	Functional	X	X	X	X	X	X		X	
+ses-07	Month 4	Condition 1A (right before the scan)	1037	Functional	X	X	X	X					
+ses-08	Month 4	Condition 1B (right after the scan)	1037	Functional			X	X					
+ses-09	Month 5	Condition 2 (2-7 days post-scan)	1064	Anatomical	X	X	X	X	X	X		X	
+ses-10	Month 6	Condition 3A (OAEs right before the scan)	1170	Functional	X	X			X	X	X	X	X
+ses-11	Month 6	Condition 3B (OAEs right after the scan)	1170	Functional					X	X	X	X	X

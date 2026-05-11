@@ -1,1 +1,16 @@
-../.git/annex/objects/g3/PF/SHA256E-s1289--b2fbd9f1597e0dce3b8e3ce9a061f7e8ca1b76cbdd9f1fd6e5798cfb4f392155.tsv/SHA256E-s1289--b2fbd9f1597e0dce3b8e3ce9a061f7e8ca1b76cbdd9f1fd6e5798cfb4f392155.tsv
+session_id	session_name	condition	delay	scan_type	Tymp	Reflex	PTA	MTX	TEOAE	DPOAE	DPGrowth_2kHz	DPGrowth_4kHz	DPGrowth_6kHz
+ses-01	Baseline 1	Baseline	0	No Scan	X	X	X		X	X		X	
+ses-02	Baseline 2	Baseline	793	No Scan	X	X	X	X	X	X		X	
+ses-03	Month 1	Condition 3A (OAEs right before the scan)	828	Functional	X				X	X	X	X	X
+ses-04	Month 1	Condition 3B (OAEs right after the scan)	828	Functional					X	X	X	X	X
+ses-05	Month 2	Condition 2 (2-7 days post-scan)	855	Anatomical	X	X	X	X	X	X		X	
+ses-06	Month 3	Condition 2 (2-7 days post-scan)	901	Functional	X	X	X	X	X	X		X	
+ses-07	Month 4	Condition 1A (right before the scan)	933	Functional	X	X	X	X					
+ses-08	Month 4	Condition 1B (right after the scan)	933	Functional			X	X					
+ses-09	Month 5	Condition 3A (OAEs right before the scan)	1015	Functional	X	X			X	X	X	X	X
+ses-10	Month 5	Condition 3B (OAEs right after the scan)	1015	Functional					X	X	X	X	X
+ses-11	Month 6	Condition 1A (right before the scan)	1038	Functional	X	X	X	X					
+ses-12	Month 6	Condition 1B (right after the scan)	1038	Functional			X	X					
+ses-13	Month 7	Condition 2 (2-7 days post-scan)	1181	Functional	X	X	X	X	X	X		X	
+ses-14	Month 8	Condition 1A (right before the scan)	1283	Anatomical			X	X					
+ses-15	Month 8	Condition 1B (right after the scan)	1283	Anatomical			X	X					

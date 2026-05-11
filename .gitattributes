@@ -9,3 +9,4 @@
 *.tgz annex.largefiles=anything
 *_scans.tsv annex.largefiles=anything
 .github/** annex.largefiles=nothing
+sub-*/sub-*_sessions.tsv annex.largefiles=nothing

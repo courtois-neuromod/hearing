@@ -1,1 +1,19 @@
-../.git/annex/objects/80/zP/SHA256E-s1619--6549ad1ae92a12c6c854f853bcfbdb88c8a4593bcae2e78fb29cdac104ad91c6.tsv/SHA256E-s1619--6549ad1ae92a12c6c854f853bcfbdb88c8a4593bcae2e78fb29cdac104ad91c6.tsv
+session_id	session_name	condition	delay	scan_type	Tymp	Reflex	PTA	MTX	TEOAE	DPOAE	DPGrowth_2kHz	DPGrowth_4kHz	DPGrowth_6kHz
+ses-01	Baseline 1	Baseline	0	No Scan	X	X	X		X	X			
+ses-02	Baseline 2	Baseline	715	No Scan	X	X	X	X	X	X		X	
+ses-03	Month 1	Condition 3A (OAEs right before the scan)	721	Functional	X				X	X	X	X	X
+ses-04	Month 1	Condition 3B (OAEs right after the scan)	721	Functional					X	X	X	X	X
+ses-05	Month 2	Condition 1A (right before the scan)	767	Functional	X		X	X					
+ses-06	Month 2	Condition 1B (right after the scan)	767	Functional			X	X					
+ses-07	Month 3	Condition 2 (2-7 days post-scan)	795	Functional	X	X	X	X	X	X		X	
+ses-08	Suppl. PTA test	Supplementary PTA test (Baseline)	809	No Scan	X	X	X						
+ses-09	Suppl. PTA test 1	Suppl. PTA test (right before the scan)	816	Anatomical			X						
+ses-10	Suppl. PTA test 1	Suppl. PTA test (right after the scan)	816	Anatomical			X						
+ses-11	Suppl. PTA test 2	Suppl. PTA test (right before the scan)	830	Functional	X		X						
+ses-12	Suppl. PTA test 2	Suppl. PTA test (right after the scan)	830	Functional			X						
+ses-13	Suppl. PTA test 3	Suppl. PTA test (right before the scan)	837	Functional	X		X						
+ses-14	Suppl. PTA test 3	Suppl. PTA test (right after the scan)	837	Functional			X						
+ses-15	Suppl. PTA test 4	Suppl. PTA test (right before the scan)	879	Functional	X	X	X						
+ses-16	Suppl. PTA test 4	Suppl. PTA test (right after the scan)	879	Functional			X						
+ses-17	Suppl. PTA test 5	Suppl. PTA test (right before the scan)	886	Functional	X	X	X						
+ses-18	Suppl. PTA test 5	Suppl. PTA test (right after the scan)	886	Functional			X						

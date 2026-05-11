@@ -1,1 +1,5 @@
-../.git/annex/objects/2z/gG/SHA256E-s387--8bd34c1a577bbd101b69dcda9f8d55e259bc9d1730232be8a6db830db7b8382c.tsv/SHA256E-s387--8bd34c1a577bbd101b69dcda9f8d55e259bc9d1730232be8a6db830db7b8382c.tsv
+session_id	session_name	condition	delay	scan_type	Tymp	Reflex	PTA	MTX	TEOAE	DPOAE	DPGrowth_2kHz	DPGrowth_4kHz	DPGrowth_6kHz
+ses-01	Baseline 1	Baseline	0	No Scan	X		X		X	X		X	
+ses-02	Baseline 2	Baseline	566	No Scan	X	X	X	X	X	X		X	
+ses-03	Month 1	Condition 1A (right before the scan)	601	Functional	X	X	X	X					
+ses-04	Month 1	Condition 1B (right after the scan)	601	Functional			X	X					
