@@ -1,0 +1,49 @@
+﻿{
+  "order": {
+    "LongName": "Order of acquisition",
+    "Levels": {
+      "1": "First sequence acquired",
+      "2": "Second sequence acquired"
+    }
+  },
+  "side": {
+    "LongName": "Side of ear tested",
+    "Levels": {
+      "R": "Right ear",
+      "L": "Left ear"
+    }
+  },
+  "type": {
+    "LongName": "Type of curve",
+    "Description": "The type parameter is a simplified representation of the actual tympanogram curve. It provides an indication on the shape of the response curve and a clinical judgement on the normality of the result.",
+    "Levels": {
+      "A": "Within normal mobility range",
+      "Ad": "Presents a higher than expected mobility of the tympanic membrane",
+      "As": "Presents a lower than expected mobility of the tympanic membrane",
+      "B": "Presents a very low mobility of the tympanic membrane",
+      "C": "Presents a lower fluid pressure in the middle ear than in the ear canal",
+      "D": " *** DESCRIPTION TO BE ADDED *** ",
+      "E": " *** DESCRIPTION TO BE ADDED *** "
+    }
+  },
+  "tpp": {
+    "LongName": "Tympanometric peak pressure/Middle ear pressure",
+    "Description": "Maximal acoustic energy absorbance capacity of the tympanic membrane.",
+    "Units": "daPa"
+  },
+  "ecv": {
+    "LongName": "Equivalent ear canal volume",
+    "Description": "Volume of the auditory canal between the probe and the tympanic membrane.",
+    "Units": "mL"
+  },
+  "sc": {
+    "LongName": "Static admittance/Compliance",
+    "Description": "Maximal acoustic energy absorbance capacity of the middle ear ossicles.",
+    "Units": "mL"
+  },
+  "tw": {
+    "LongName": "Tympanometric width",
+    "Description": "Pressure level at 50% of the tympanogram's peak.",
+    "Units": "daPa"
+  }
+}

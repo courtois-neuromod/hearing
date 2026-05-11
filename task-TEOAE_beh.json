@@ -1,0 +1,41 @@
+﻿{
+  "order": {
+    "LongName": "Order of acquisition",
+    "Levels": {
+      "1": "First sequence acquired",
+      "2": "Second sequence acquired"
+    }
+  },
+  "side": {
+    "LongName": "Side of ear tested",
+    "Levels": {
+      "R": "Right ear",
+      "L": "Left ear"
+    }
+  },
+  "freq": {
+    "LongName": "Frequency",
+    "Description": "Frequency for which the intensity of the transient-evoked otoacoustic emission is reported.",
+    "Units": "Hz"
+  },
+  "oae": {
+    "LongName": "Otoacoustic emissions response",
+    "Description": "Amplitude of the transient-evoked otoacoustic emissions at a specific frequency.",
+    "Units": "dB SPL"
+  },
+  "noise": {
+    "LongName": "Noise relative strength",
+    "Description": "Measured level of the noise relative strength.",
+    "Units": "dB"
+  },
+  "snr": {
+    "LongName": "Signal-to-noise ratio",
+    "Description": "Difference between the measured level of the transient-evoked otoacoustic emissions and the measured noise relative strength (TEOAE level - Noise level).",
+    "Units": "dB"
+  },
+  "confidence": {
+    "LongName": "Confidence level",
+    "Description": "Level of confidence linked to the obtained signal-to-noise ratio.",
+    "Units": "%"
+  }
+}

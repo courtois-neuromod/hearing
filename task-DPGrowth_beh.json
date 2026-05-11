@@ -1,0 +1,76 @@
+﻿{
+  "order": {
+    "LongName": "Order of acquisition",
+    "Levels": {
+      "1": "First sequence acquired",
+      "2": "Second sequence acquired"
+    }
+  },
+  "side": {
+    "LongName": "Side of ear tested",
+    "Levels": {
+      "R": "Right ear",
+      "L": "Left ear"
+    }
+  },
+  "freq1": {
+    "LongName": "Frequency #1",
+    "Description": "Lower frequency (F1) used to produce distortion product otoacoustic emissions. The F2/F1 ratio = 1,22.",
+    "Units": "Hz"
+  },
+  "freq2": {
+    "LongName": "Frequency #2",
+    "Description": "Higher frequency (F2) used to produce distortion product otoacoustic emissions. The F2/F1 ratio = 1,22.",
+    "Units": "Hz"
+  },
+  "l1": {
+    "LongName": "Level for frequency #1",
+    "Description": "Frequency #1's presentation level.",
+    "Units": "dB SPL"
+  },
+  "l2": {
+    "LongName": "Level for frequency #2",
+    "Description": "Frequency #2's presentation level.",
+    "Units": "dB SPL"
+  },
+  "dp": {
+    "LongName": "Distortion product",
+    "Description": "Measured level of the distortion product otoacoustic emissions.",
+    "Units": "dB SPL"
+  },
+  "snr": {
+    "LongName": "Signal-to-noise ratio",
+    "Description": "Difference between the measured level of the distortion product otoacoustic emissions and the measured noise relative strength plus two standard deviations (TEOAE level - (Noise level + 2 * SD)).",
+    "Units": "dB"
+  },
+  "noise+2sd": {
+    "LongName": "Noise level plus two standard deviations",
+    "Description": "Measured noise relative strength level plus two standard deviations.",
+    "Units": "dB"
+  },
+  "noise+1sd": {
+    "LongName": "Noise level plus standard deviation",
+    "Description": "Measured noise relative strength level plus one standard deviation.",
+    "Units": "dB"
+  },
+  "2f2-f1": {
+    "LongName": "Frequency #2 times two minus frequency #1",
+    "Description": "Frequency #2 intensity times two minus frequency #1 intensity (2 * F2 - F1).",
+    "Units": "dB"
+  },
+  "3f1-2f2": {
+    "LongName": "Frequency #1 times three minus frequency #2 times two",
+    "Description": "Frequency #1 intensity times three minus frequency #2 times two (3 * F1 - 2 * F2).",
+    "Units": "dB"
+  },
+  "3f2-2f1": {
+    "LongName": "Frequency #2 times three minus frequency #1 times two",
+    "Description": "Frequency #2 intensity times three minus frequency #1 times two (3 * F2 - 2 * F1).",
+    "Units": "dB"
+  },
+  "4f1-3f2": {
+    "LongName": "Frequency #1 times four minus frequency #2 times three",
+    "Description": "Frequency #1 intensity times four minus frequency #2 times three (4 * F1 - 3 * F2).",
+    "Units": "dB"
+  }
+}

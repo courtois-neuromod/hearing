@@ -1,0 +1,46 @@
+﻿{
+  "order": {
+    "LongName": "Order of acquisition",
+    "Levels": {
+      "1": "First sequence acquired",
+      "2": "Second sequence acquired"
+    }
+  },
+  "language": {
+    "LongName": "Language used for this sequence of acquisition",
+    "Levels": {
+      "French": "French",
+      "English": "English"
+    }
+  },
+  "practice": {
+    "LongName": "First condition of the sequence (see Description).",
+    "Description": "The participants are asked to repeat out loud the sentences that are presented to them. This value represents the hearing threshold for a 50% rate of correct answers with these conditions: Speech presentation = Binaural/Noise presentation = Binaural. This condition is used as a practice/warm-up condition.",
+    "Units": "dB SNR"
+  },
+  "sp_bin_no_bin": {
+    "LongName": "Second condition of the sequence (see Description).",
+    "Description": "The participants are asked to repeat out loud the sentences that are presented to them. This value represents the hearing threshold for a 50% rate of correct answers with these conditions: Speech presentation = Binaural/Noise presentation = Binaural.",
+    "Units": "dB SNR"
+  },
+  "sp_l_no_bin": {
+    "LongName": "Third condition of the sequence (see Description).",
+    "Description": "The participants are asked to repeat out loud the sentences that are presented to them. This value represents the hearing threshold for a 50% rate of correct answers with these conditions: Speech presentation = Left ear/Noise presentation = Binaural.",
+    "Units": "dB SNR"
+  },
+  "sp_r_no_bin": {
+    "LongName": "Fourth condition of the sequence (see Description).",
+    "Description": "The participants are asked to repeat out loud the sentences that are presented to them. This value represents the hearing threshold for a 50% rate of correct answers with these conditions: Speech presentation = Right ear/Noise presentation = Binaural.",
+    "Units": "dB SNR"
+  },
+  "sp_l_no_l": {
+    "LongName": "Fifth condition of the sequence (see Description).",
+    "Description": "The participants are asked to repeat out loud the sentences that are presented to them. This value represents the hearing threshold for a 50% rate of correct answers with these conditions: Speech presentation = Left ear/Noise presentation = Left ear.",
+    "Units": "dB SNR"
+  },
+  "sp_r_no_r": {
+    "LongName": "Sixth condition of the sequence (see Description).",
+    "Description": "The participants are asked to repeat out loud the sentences that are presented to them. This value represents the hearing threshold for a 50% rate of correct answers with these conditions: Speech presentation = Right ear/Noise presentation = Right ear.",
+    "Units": "dB SNR"
+  }
+}

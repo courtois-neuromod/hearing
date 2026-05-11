@@ -1,0 +1,41 @@
+﻿{
+  "order": {
+    "LongName": "Order of acquisition",
+    "Levels": {
+      "1": "First sequence acquired",
+      "2": "Second sequence acquired"
+    }
+  },
+  "side": {
+    "LongName": "Side of ear tested",
+    "Levels": {
+      "R": "Right ear",
+      "L": "Left ear"
+    }
+  },
+  "500_hz": {
+    "LongName": "Stapedial reflex threshold at 500 Hz",
+    "Description": "",
+    "Units": "dB HL"
+  },
+  "1000_hz": {
+    "LongName": "Stapedial reflex threshold at 1000 Hz",
+    "Description": "",
+    "Units": "dB HL"
+  },
+  "2000_hz": {
+    "LongName": "Stapedial reflex threshold at 2000 Hz",
+    "Description": "",
+    "Units": "dB HL"
+  },
+  "4000_hz": {
+    "LongName": "Stapedial reflex threshold at 4000 Hz",
+    "Description": "",
+    "Units": "dB HL"
+  },
+  "noise": {
+    "LongName": "Stapedial reflex threshold for broadband noise",
+    "Description": "",
+    "Units": "dB HL"
+  }
+}

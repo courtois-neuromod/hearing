@@ -1,0 +1,134 @@
+﻿{
+  "session_id": {
+    "LongName": "Session identification number",
+    "Description": "Identification number of the sessions using the BIDS format (ses-XX, starting with ses-01)"
+  },
+  "session_name": {
+    "LongName": "Session name and/or type",
+    "Description": "Type of session. Can be a baseline session where reference values are established for each of the hearing tests or an experimental protocol session (Month X) linked to a scan session to investigate potential changes in the auditory health of the research participants.",
+    "Levels": {
+      "Baseline 1": "Baseline at the beginning of the Projet Courtois NeuroMod",
+      "Baseline 2": "Baseline at the beginning of the auditory tests protocol",
+      "Baseline 3": "Baseline at the end of the auditory tests protocol",
+      "Month 1": "Experimental session 1",
+      "Month 2": "Experimental session 2",
+      "Month 3": "Experimental session 3",
+      "Month 4": "Experimental session 4",
+      "Month 5": "Experimental session 5",
+      "Month 6": "Experimental session 6",
+      "Month 7": "Experimental session 7",
+      "Month 8": "Experimental session 8",
+      "Month 9": "Experimental session 9",
+      "Month 10": "Experimental session 10",
+      "Month 11": "Experimental session 11",
+      "Month 12": "Experimental session 12",
+      "Suppl. PTA test": "Baseline at the beginning of the supplementary pure tone audiometry special protocol",
+      "Suppl. PTA test 1": "Supplementary PTA protocol session 1",
+      "Suppl. PTA test 2": "Supplementary PTA protocol session 2",
+      "Suppl. PTA test 3": "Supplementary PTA protocol session 3",
+      "Suppl. PTA test 4": "Supplementary PTA protocol session 4",
+      "Suppl. PTA test 5": "Supplementary PTA protocol session 5"
+    }
+  },
+  "condition": {
+    "LongName": "Experimental condition",
+    "Description": "Type of experimental condition. Can either be a baseline (Baseline or Suppl. PTA (Baseline)) or one of the experimental conditions (1[A, B], 2, 3[A, B] or Suppl. PTA [A, B]). ",
+    "Levels": {
+      "Baseline": "Baseline: includes Tympanometry, Stapedial reflex, Pure tone audiometry, Matrix speech-in-noise perception test, Transient-evoked otoacoustic emissions, Distortion product otoacoustic emissions and Distortion product otoacoustic emissions' growth function at 4 kHz",
+      "1A": "Hearing test session right before the scan: includes Tympanometry, Stapedial reflex, Pure tone audiometry and Matrix speech-in-noise perception test",
+      "1B": "Hearing test session right after the scan: includes Pure tone audiometry and Matrix speech-in-noise perception test",
+      "2": "Hearing test session 2-7 days post-scan: includes Tympanometry, Stapedial reflex, Pure tone audiometry, Matrix speech-in-noise perception test, Transient-evoked otoacoustic emissions, Distortion product otoacoustic emissions and Distortion product otoacoustic emissions' growth function at 4 kHz",
+      "3A": "OAE test session right before the scan: includes Tympanometry, Stapedial reflex, Transient-evoked otoacoustic emissions, Distortion product otoacoustic emissions and Distortion product otoacoustic emissions' growth function at 2, 4 and 6 kHz",
+      "3B": "OAE test session right after the scan: includes Transient-evoked otoacoustic emissions, Distortion product otoacoustic emissions and Distortion product otoacoustic emissions' growth function at 2, 4 and 6 kHz",
+      "Suppl. PTA (Baseline)": "Baseline: includes Tympanometry, Stapedial reflex and Pure tone audiometry",
+      "Suppl. PTA A": "Hearing test session right before the scan: includes Pure tone audiometry. May also include Tympanometry and Stapedial reflex",
+      "Suppl. PTA B": "Hearing test session right after the scan: includes Pure tone audiometry"
+    }
+  },
+  "delay": {
+    "LongName": "Number of days since the first baseline",
+    "Description": "Delay (in days) between a specific test session and the first auditory test session (baseline #1) acquired with the participant when they joined the study.",
+    "Units": "days"
+  },
+  "scan_type": {
+    "LongName": "MRI scan type",
+    "Description": "Type of MRI scan linked to the acquisition session (anatomical, functional or no scan in the case of baseline sessions).",
+    "Levels": {
+      "No Scan": "Session not linked to a scan session",
+      "Anatomical": "Session linked to an anatomical MRI scan session",
+      "Functional": "Session linked to a functional MRI scan session"
+    }
+  },
+  "Tymp": {
+    "LongName": "Tympanometry",
+    "Description": "Tympanic membrane and middle ear structures mobility test.",
+    "Levels": {
+      "X": "Test data available for this type of test",
+      "": "No test data available for this type of test"
+    }
+  },
+  "Reflex": {
+    "LongName": "Stapedial reflex",
+    "Description": "Test of the reactivity of the stapedial reflex.",
+    "Levels": {
+      "X": "Test data available for this type of test",
+      "": "No test data available for this type of test"
+    }
+  },
+  "PTA": {
+    "LongName": "Pure tone audiometry",
+    "Description": "Behavioral measurement of the earing thresholds using pure tones at different frequencies.",
+    "Levels": {
+      "X": "Test data available for this type of test",
+      "": "No test data available for this type of test"
+    }
+  },
+  "MTX": {
+    "LongName": "Matrix speech-in-noise perception test",
+    "Description": "Behavioral speech-in-noise perception test using five words sentences built from a matrix of words.",
+    "Levels": {
+      "X": "Test data available for this type of test",
+      "": "No test data available for this type of test"
+    }
+  },
+  "TEOAE": {
+    "LongName": "Transient-evoked otoacoustic emissions",
+    "Description": "Otoacoustic emissions test using brief transient stimuli",
+    "Levels": {
+      "X": "Test data available for this type of test",
+      "": "No test data available for this type of test"
+    }
+  },
+  "DPOAE": {
+    "LongName": "Distortion product otoacoustic emissions",
+    "Description": "Otoacoustic emissions test using the simultaneous presentation of two pure tones (f1 and f2) with a f2/f1 ratio of 1,22 and target intensities L1 = 65 dB SPL (for f1) and L2 = 55 dB SPL (for f2).",
+    "Levels": {
+      "X": "Test data available for this type of test",
+      "": "No test data available for this type of test"
+    }
+  },
+  "DPGrowth_2kHz": {
+    "LongName": "Distortion product otoacoustic emissions growth function at 2 kHz",
+    "Description": "Otoacoustic emissions test using the simultaneous presentation of two pure tones (f1 and f2) with a f2/f1 ratio of 1,22 and where the target f2 = 2 kHz. The pair of frequencies f1-f2 is presented with decreasing intensities.",
+    "Levels": {
+      "X": "Test data available for this type of test",
+      "": "No test data available for this type of test"
+    }
+  },
+  "DPGrowth_4kHz": {
+    "LongName": "Distortion product otoacoustic emissions growth function at 4 kHz",
+    "Description": "Otoacoustic emissions test using the simultaneous presentation of two pure tones (f1 and f2) with a f2/f1 ratio of 1,22 and where the target f2 = 4 kHz. The pair of frequencies f1-f2 is presented with decreasing intensities.",
+    "Levels": {
+      "X": "Test data available for this type of test",
+      "": "No test data available for this type of test"
+    }
+  },
+  "DPGrowth_6kHz": {
+    "LongName": "Distortion product otoacoustic emissions growth function at 6 kHz",
+    "Description": "Otoacoustic emissions test using the simultaneous presentation of two pure tones (f1 and f2) with a f2/f1 ratio of 1,22 and where the target f2 = 6 kHz. The pair of frequencies f1-f2 is presented with decreasing intensities.",
+    "Levels": {
+      "X": "Test data available for this type of test",
+      "": "No test data available for this type of test"
+    }
+  }
+}

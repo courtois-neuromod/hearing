@@ -1,0 +1,96 @@
+﻿{
+  "order": {
+    "LongName": "Order of acquisition",
+    "Levels": {
+      "1": "First sequence acquired",
+      "2": "Second sequence acquired"
+    }
+  },
+  "side": {
+    "LongName": "Side of ear tested",
+    "Levels": {
+      "R": "Right ear",
+      "L": "Left ear"
+    }
+  },
+  "250_hz": {
+    "LongName": "Threshold at 250 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 250 Hz.",
+    "Units": "dB HL"
+  },
+  "500_hz": {
+    "LongName": "Threshold at 500 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 500 Hz.",
+    "Units": "dB HL"
+  },
+  "1000_hz": {
+    "LongName": "Threshold at 1000 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 1000 Hz.",
+    "Units": "dB HL"
+  },
+  "2000_hz": {
+    "LongName": "Threshold at 2000 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 2000 Hz.",
+    "Units": "dB HL"
+  },
+  "3000_hz": {
+    "LongName": "Threshold at 3000 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 3000 Hz.",
+    "Units": "dB HL"
+  },
+  "4000_hz": {
+    "LongName": "Threshold at 4000 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 4000 Hz.",
+    "Units": "dB HL"
+  },
+  "6000_hz": {
+    "LongName": "Threshold at 6000 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 6000 Hz.",
+    "Units": "dB HL"
+  },
+  "8000_hz": {
+    "LongName": "Threshold at 8000 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 8000 Hz.",
+    "Units": "dB HL"
+  },
+  "9000_hz": {
+    "LongName": "Threshold at 9000 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 9000 Hz.",
+    "Units": "dB HL"
+  },
+  "10000_hz": {
+    "LongName": "Threshold at 10000 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 10000 Hz.",
+    "Units": "dB HL"
+  },
+  "11200_hz": {
+    "LongName": "Threshold at 11200 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 11200 Hz.",
+    "Units": "dB HL"
+  },
+  "12500_hz": {
+    "LongName": "Threshold at 12500 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 12500 Hz.",
+    "Units": "dB HL"
+  },
+  "14000_hz": {
+    "LongName": "Threshold at 14000 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 14000 Hz.",
+    "Units": "dB HL"
+  },
+  "16000_hz": {
+    "LongName": "Threshold at 16000 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 16000 Hz.",
+    "Units": "dB HL"
+  },
+  "18000_hz": {
+    "LongName": "Threshold at 18000 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 18000 Hz.",
+    "Units": "dB HL"
+  },
+  "20000_hz": {
+    "LongName": "Threshold at 20000 Hz",
+    "Description": "The participants are asked to press a button when they hear a sound. This value represents the hearing threshold obtained with a pure-tone at 20000 Hz.",
+    "Units": "dB HL"
+  }
+}
